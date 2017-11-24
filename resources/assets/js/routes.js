@@ -8,6 +8,10 @@ let routes = [
     {
         path:"/about",
         component:require("./components/About")
+    },
+    {
+        path:"/login",
+        component:require("./components/Login")
     }
 ];
 

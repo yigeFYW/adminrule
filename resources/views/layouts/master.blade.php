@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel SPA</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/app.css{{'?s='.str_random(10)}}">
 
     <!-- Styles -->
     <style>
@@ -18,5 +18,5 @@
     <router-view></router-view>
 </div>
 </body>
-<script src="/js/app.js"></script>
+<script src="/js/app.js{{'?s='.str_random(10)}}"></script>
 </html>

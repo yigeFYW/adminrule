@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('layouts/master');
 });
+
+Route::get('/login', function () {
+    return view('layouts/master');
+});
