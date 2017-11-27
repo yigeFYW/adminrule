@@ -16,7 +16,7 @@ let routes = [
                 component:require("./components/About")
             },
             {
-                path:'',
+                path:'/',
                 name:"index",
                 component:require("./components/Home")
             },
@@ -25,7 +25,6 @@ let routes = [
 ];
 
 export default new VueRouter({
-
     mode:'history',
     routes
 })

@@ -18601,14 +18601,13 @@ var routes = [{
         name: "about",
         component: __webpack_require__(199)
     }, {
-        path: '',
+        path: '/',
         name: "index",
         component: __webpack_require__(202)
     }]
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
-
     mode: 'history',
     routes: routes
 }));
@@ -89818,8 +89817,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -89865,7 +89862,7 @@ var render = function() {
                     "background-color": "#545c64",
                     "text-color": "#fff",
                     "active-text-color": "#ffd04b",
-                    router: "true"
+                    router: true
                   },
                   on: { select: _vm.handleSelect }
                 },

@@ -10,12 +10,10 @@
                         background-color="#545c64"
                         text-color="#fff"
                         active-text-color="#ffd04b"
-                        router="true"
+                        :router="true"
                         >
                     <el-col :span="8" :offset="6">
-
                         <el-menu-item index="/">首页</el-menu-item>
-
                         <el-menu-item index="/about">帮助</el-menu-item>
                     </el-col>
                     <el-col :span="4">
