@@ -15,10 +15,10 @@ Route::get('/', function () {
     return view('layouts/master');
 });
 
-Route::get('/about', function () {
+Route::get('{all}', function () {
     return view('layouts/master');
 });
 
-Route::get('/login', function () {
-    return view('layouts/master');
-});
+//Route::get('/login', function () {
+//    return view('layouts/master');
+//});

@@ -1,29 +1,37 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Login Component</div>
-
-                    <div class="panel-body">
-                        I'm an example component!
-                    </div>
+    <el-row>
+        <el-col :span="8" :offset="8">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <h3 class="title">登录</h3>
                 </div>
-            </div>
-        </div>
-    </div>
+                <el-form >
+
+                </el-form>
+            </el-card>
+        </el-col>
+    </el-row>
 </template>
 
 <script>
     export default {
+        data() {
+            return {
+                activeIndex: '1',
+                activeIndex2: '1'
+            };
+        },
+        methods: {
+            handleSelect(key, keyPath) {
+                console.log(key, keyPath);
+            }
+        },
         mounted() {
-            console.log('Component mounted.')
+            console.log(this.$router.history.current);
         }
     }
 </script>
 
 <style>
-    body{
-        background-image: url(../../img/bg.gif);
-    }
+
 </style>
